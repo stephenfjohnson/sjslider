@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>SJSlider</title>
+</head>
+<body>
+	<h1>SJSlider: Demo</h1>
+
+	<ul>
+		<li><img src="http://placehold.it/300x200/&text=1st" alt="img"></li>
+		<li><img src="http://placehold.it/300x200" alt="img"></li>
+		<li><img src="http://placehold.it/300x200" alt="img"></li>
+		<li><img src="http://placehold.it/300x200/&text=4th" alt="img"></li>
+	</ul>
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+	<script type="text/javascript" src="js/sjslider.js"></script>
+
+	<script type="text/javascript">
+		$('ul').sjslider({
+			pause : 1000,
+			speed : 1000,
+			transition : 'fade'
+		});
+	</script>
+</body>
+</html>
