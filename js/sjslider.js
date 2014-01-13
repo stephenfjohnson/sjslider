@@ -77,14 +77,6 @@
 					}, options.pause);
 				} // End Slide
 
-
-
-
-
-
-			
-
-
 		});
 	}
 
