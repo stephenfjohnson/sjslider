@@ -42,7 +42,7 @@
 				});
 
 				for(var i = $this.children().length - 1, y = 0; i >= 0; i--, y++) {
-					$this.children().eq(y).css('zIndex', i + 0);
+					$this.children().eq(y).css('zIndex', i + 99999);
 				} 
 
 				fade();
