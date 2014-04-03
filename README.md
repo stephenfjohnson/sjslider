@@ -5,4 +5,4 @@ sjslider
 
    Created by: Stephen Johnson  
    Created On: 10/24/13  
-   Version#  : 1.0  
+   Version#  : 1.3
