@@ -17,7 +17,7 @@
 			if(options.pause <= options.speed) options.pause = options.speed + 100;
 
 			$this.css({
-				'width'    : '99999px',
+				//'width'    : '99999px',
 				'position' : 'relative',
 				'padding'  : 0
 			});
